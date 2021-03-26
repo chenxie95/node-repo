@@ -1,5 +1,5 @@
 // Make Connection
-var socket = io.connect('http://localhost:4000');
+var socket = io.connect('https://test-for-code.azurewebsites.net:4000');
 
 // Query DOM
 var message = document.getElementById('message'),
