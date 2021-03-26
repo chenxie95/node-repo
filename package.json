@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"hell here\""
+    "test": "echo \"hell here\"",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
