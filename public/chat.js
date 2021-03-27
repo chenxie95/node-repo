@@ -1,6 +1,7 @@
 // Make Connection
-var hostname = window.location.hostname
-var socket = io.connect(`${hostname}:8080`);
+// var hostname = window.location.hostname
+// var socket = io.connect(`${hostname}:4000`);
+var socket = io();
 
 // Query DOM
 var message = document.getElementById('message'),
