@@ -24,8 +24,14 @@ io.on('connection', function(socket){
     });
 
     socket.on('typing', function(data){
-        socket.broadcast.emit('typing', data)
+        socket.broadcast.emit('typing', data);
     });
+
+    socket.on('disconnect', function() {
+            console.log('a user left');
+            io.sockets.emit('disconnet', 'has left');
+    });
+
 
 });
 
