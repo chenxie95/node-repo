@@ -4,7 +4,6 @@
   "description": "",
   "main": "a.js",
   "scripts": {
-    "start": "node b.js"
   },
   "author": "",
   "license": "ISC",
